@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { GameSetup } from '@/app/components/GameSetup';
+import { KakaoAdFit } from '@/app/components/KakaoAdFit';
 import { LanguageToggle } from '@/app/components/LanguageToggle';
 import { useTranslation } from '@/app/hooks/useTranslation';
 import { setGameConfig } from '@/app/hooks/useGame';
@@ -64,8 +65,28 @@ export default function Home() {
 
           {/* Setup form */}
           <GameSetup onStart={handleStart} />
+
+          {/* Ad banner */}
+          <div className="mt-8 flex justify-center">
+            <KakaoAdFit
+              unit="DAN-OcTSWfyo9pmOfUWQ"
+              width={320}
+              height={100}
+              className="rounded-lg overflow-hidden"
+            />
+          </div>
         </div>
       </main>
+
+      {/* Vertical ad - desktop only */}
+      <div className="hidden xl:block fixed right-4 top-1/2 -translate-y-1/2 z-20">
+        <KakaoAdFit
+          unit="DAN-DRr5ft19fdYTymgX"
+          width={160}
+          height={600}
+          className="rounded-lg overflow-hidden shadow-lg"
+        />
+      </div>
 
       {/* Footer decoration */}
       <div className="fixed bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400" />
