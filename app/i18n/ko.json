@@ -1,0 +1,53 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "close": "닫기"
+  },
+  "game": {
+    "title": "이미지 퍼즐",
+    "subtitle": "숨겨진 이미지를 맞춰보세요!",
+    "setup": {
+      "heading": "게임 설정",
+      "uploadImage": "이미지 업로드",
+      "uploadHint": "클릭하거나 드래그하여 이미지를 선택하세요",
+      "changeImage": "이미지 변경",
+      "enterAnswer": "정답 입력",
+      "answerPlaceholder": "정답을 입력하세요",
+      "answerHint": "플레이어가 맞춰야 할 정답이에요",
+      "gridSize": "그리드 크기",
+      "rows": "행",
+      "cols": "열",
+      "preview": "미리보기",
+      "cards": "개의 카드",
+      "startGame": "게임 시작!"
+    },
+    "play": {
+      "cardsRemaining": "남은 카드",
+      "cards": "개",
+      "submitAnswer": "정답!",
+      "answerPlaceholder": "정답은 뭘까요?",
+      "hint": "카드를 터치해서 이미지를 확인하세요!",
+      "giveUp": "포기하기"
+    },
+    "result": {
+      "success": {
+        "title": "정답이에요!",
+        "message": "대단해요! 정답을 맞췄어요!",
+        "playAgain": "다시 하기"
+      },
+      "wrong": {
+        "message": "땡! 다시 도전해보세요!"
+      },
+      "gaveUp": {
+        "title": "아쉬워요!",
+        "message": "정답은",
+        "was": "이었어요!",
+        "playAgain": "다시 도전하기"
+      }
+    }
+  },
+  "settings": {
+    "language": "언어"
+  }
+}

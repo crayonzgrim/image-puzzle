@@ -1,0 +1,53 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close"
+  },
+  "game": {
+    "title": "Image Puzzle",
+    "subtitle": "Guess the hidden image!",
+    "setup": {
+      "heading": "Game Setup",
+      "uploadImage": "Upload Image",
+      "uploadHint": "Click or drag to select an image",
+      "changeImage": "Change Image",
+      "enterAnswer": "Enter Answer",
+      "answerPlaceholder": "Enter the answer",
+      "answerHint": "This is what players need to guess",
+      "gridSize": "Grid Size",
+      "rows": "Rows",
+      "cols": "Cols",
+      "preview": "Preview",
+      "cards": "cards",
+      "startGame": "Start Game!"
+    },
+    "play": {
+      "cardsRemaining": "Cards left",
+      "cards": "",
+      "submitAnswer": "Submit!",
+      "answerPlaceholder": "What's the answer?",
+      "hint": "Tap cards to reveal the image!",
+      "giveUp": "Give Up"
+    },
+    "result": {
+      "success": {
+        "title": "Correct!",
+        "message": "Amazing! You got it right!",
+        "playAgain": "Play Again"
+      },
+      "wrong": {
+        "message": "Nope! Try again!"
+      },
+      "gaveUp": {
+        "title": "Oh no!",
+        "message": "The answer was",
+        "was": "!",
+        "playAgain": "Try Again"
+      }
+    }
+  },
+  "settings": {
+    "language": "Language"
+  }
+}
