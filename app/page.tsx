@@ -32,6 +32,16 @@ export default function Home() {
         <div className="max-w-lg mx-auto flex justify-end">
           <LanguageToggle />
         </div>
+
+        {/* Ad banner between toggle and title */}
+        <div className="mt-4 flex justify-center">
+          <KakaoAdFit
+            unit="DAN-OcTSWfyo9pmOfUWQ"
+            width={320}
+            height={100}
+            className="rounded-lg overflow-hidden"
+          />
+        </div>
       </header>
 
       {/* Main content */}
@@ -65,16 +75,6 @@ export default function Home() {
 
           {/* Setup form */}
           <GameSetup onStart={handleStart} />
-
-          {/* Ad banner */}
-          <div className="mt-8 flex justify-center">
-            <KakaoAdFit
-              unit="DAN-OcTSWfyo9pmOfUWQ"
-              width={320}
-              height={100}
-              className="rounded-lg overflow-hidden"
-            />
-          </div>
         </div>
       </main>
 
