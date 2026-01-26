@@ -176,7 +176,7 @@ export default function GamePage() {
               unit="DAN-OcTSWfyo9pmOfUWQ"
               width={320}
               height={100}
-              className="rounded-lg overflow-hidden"
+              className="overflow-hidden"
             />
           </div>
         </div>
@@ -202,7 +202,7 @@ export default function GamePage() {
           unit="DAN-DRr5ft19fdYTymgX"
           width={160}
           height={600}
-          className="rounded-lg overflow-hidden shadow-lg"
+          className="overflow-hidden shadow-lg"
         />
       </div>
 
