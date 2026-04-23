@@ -20,7 +20,7 @@ export function KakaoAdFit({ unit, width, height, className }: KakaoAdFitProps) 
     if (!container) return;
 
     const script = document.createElement("script");
-    script.src = "//t1.daumcdn.net/kas/static/ba.min.js";
+    script.src = "//t1.kakaocdn.net/kas/static/ba.min.js";
     script.async = true;
 
     container.appendChild(script);
